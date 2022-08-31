@@ -20,7 +20,8 @@
 
 .fruit-counter-header {
   color: #000000;
-  font-size: 2rem;
+  font-size: 4rem;
+  margin-bottom: 4rem;
 }
 
 .fruit-counter-text {
@@ -59,6 +60,6 @@
 
 @media (min-width: 768px) {
   .eat-fruits-container-item {
-    width: 30vw;
+    width: 25vw;
   }
 }
