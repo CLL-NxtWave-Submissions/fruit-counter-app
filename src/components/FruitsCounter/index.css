@@ -51,3 +51,9 @@
   outline: none;
   border-radius: 0.4rem;
 }
+
+@media (min-width: 768px) {
+  .eat-fruits-container-item {
+    width: 30vw;
+  }
+}
