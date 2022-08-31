@@ -1,7 +1,7 @@
 .fruit-counter-bg-container {
   background-color: #ffd569;
-  padding: 2rem;
-  height: 100vh;
+  padding: 0.7rem 1.2rem;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -10,7 +10,7 @@
 .fruit-counter-content-container {
   background-color: #ffffff;
   border-radius: 1rem;
-  padding: 6rem 4rem;
+  padding: 3rem 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -20,9 +20,10 @@
 
 .fruit-counter-header {
   color: #000000;
-  font-size: 3rem;
+  font-size: 1.5rem;
   margin-top: 0;
-  margin-bottom: 6rem;
+  margin-bottom: 3rem;
+  text-align: center;
 }
 
 .fruit-counter-text {
@@ -41,20 +42,21 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 80vw;
-  margin-left: 2rem;
-  margin-right: 2rem;
+  width: 45vw;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 4rem;
 }
 
 .fruit-img {
   width: 100%;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 .eat-fruit-button {
   color: #ffffff;
   background-color: #007bff;
-  font-size: 1rem;
+  font-size: 0.8rem;
   cursor: pointer;
   outline: none;
   border-radius: 0.4rem;
@@ -63,7 +65,34 @@
 }
 
 @media (min-width: 768px) {
+  .fruit-counter-bg-container {
+    height: 100vh;
+  }
+
+  .fruit-counter-content-container {
+    padding: 6rem 4rem;
+  }
+
+  .fruit-counter-header {
+    font-size: 3rem;
+    margin-bottom: 6rem;
+  }
+
   .eat-fruits-container-item {
     width: 20vw;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 0;
+  }
+
+  .fruit-img {
+    width: 100%;
+    margin-bottom: 3rem;
+  }
+
+  .eat-fruit-button {
+    font-size: 1rem;
+    border-radius: 0.4rem;
+    padding: 0.5rem 1rem;
   }
 }
