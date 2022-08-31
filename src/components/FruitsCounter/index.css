@@ -10,7 +10,7 @@
 .fruit-counter-content-container {
   background-color: #ffffff;
   border-radius: 1rem;
-  padding: 2rem;
+  padding: 6rem 4rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -20,8 +20,9 @@
 
 .fruit-counter-header {
   color: #000000;
-  font-size: 4rem;
-  margin-bottom: 4rem;
+  font-size: 3rem;
+  margin-top: 0;
+  margin-bottom: 6rem;
 }
 
 .fruit-counter-text {
@@ -41,10 +42,13 @@
   justify-content: center;
   align-items: center;
   width: 80vw;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 .fruit-img {
   width: 100%;
+  margin-bottom: 3rem;
 }
 
 .eat-fruit-button {
@@ -60,6 +64,6 @@
 
 @media (min-width: 768px) {
   .eat-fruits-container-item {
-    width: 25vw;
+    width: 20vw;
   }
 }
