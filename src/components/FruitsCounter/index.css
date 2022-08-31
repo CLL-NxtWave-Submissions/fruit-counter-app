@@ -9,7 +9,7 @@
 
 .fruit-counter-content-container {
   background-color: #ffffff;
-  border-radius: 0.4rem;
+  border-radius: 1rem;
   padding: 2rem;
   display: flex;
   flex-direction: column;
